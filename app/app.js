@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Greeting from './greeting'
+import Menu from './components/menu.component.js'
 
 ReactDOM.render(
-  <Greeting name="World" />,
+  <Menu />,
   document.getElementById('container')
 );
